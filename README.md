@@ -24,23 +24,13 @@ Most SEO skill packs look impressive until you point them at a real website. The
 
 ## How the skills work together
 
-```
-                 ┌───────────────────────────┐
-                 │    seo-client-context     │
-                 │(read by every skill first)│
-                 └─────────────┬─────────────┘
-       ┌───────────────┬───────┴───────┬────────────────┬───────────────┐
-       ▼               ▼               ▼                ▼               ▼
-  Audit & Tech    Keywords &      On-page &        Local SEO       Data, Links
-                  Strategy        Content                          & AI Search
-  seo-audit       keyword-        on-page-seo      local-seo-      search-console-
-  technical-seo   research        content-brief    audit           analysis
-  site-           keyword-        seo-content-     google-business seo-reporting
-  architecture    cannibalization writing          -profile        link-building
-  schema-markup   competitor-     content-refresh  service-pages   ai-search-
-  site-migration  analysis        internal-linking location-pages  optimization
-                  content-strategy                 local-citations
-                                                   review-management
+```mermaid
+flowchart TD
+    C["seo-client-context<br/>(read by every skill first)"] --> A["Audit & Technical<br/>seo-audit, technical-seo, site-architecture,<br/>schema-markup, site-migration"]
+    C --> K["Keywords & Strategy<br/>keyword-research, keyword-cannibalization,<br/>competitor-analysis, content-strategy"]
+    C --> O["On-page & Content<br/>on-page-seo, content-brief, seo-content-writing,<br/>content-refresh, internal-linking"]
+    C --> L["Local SEO<br/>local-seo-audit, google-business-profile, service-pages,<br/>location-pages, local-citations, review-management"]
+    C --> D["Data, Links & AI Search<br/>search-console-analysis, seo-reporting,<br/>link-building, ai-search-optimization"]
 ```
 
 Run `seo-client-context` once per website. It creates `.agents/seo-context.md` with the business details (NAP, services, cities, competitors, goals, data access). Every other skill reads it, so you never repeat yourself and nothing is guessed.

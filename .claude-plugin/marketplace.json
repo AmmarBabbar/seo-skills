@@ -1,0 +1,19 @@
+{
+  "name": "ammarbabbar-seo",
+  "owner": {
+    "name": "Ammar Babbar",
+    "url": "https://github.com/AmmarBabbar"
+  },
+  "metadata": {
+    "description": "SEO and Local SEO skills for AI agents by Ammar Babbar: audits, technical SEO, keyword research, content, Google Business Profile, reviews, citations, links, Search Console and AI search",
+    "version": "1.0.0",
+    "repository": "https://github.com/AmmarBabbar/seo-skills"
+  },
+  "plugins": [
+    {
+      "name": "seo-skills",
+      "description": "25 SEO and Local SEO skills: seo-audit, technical-seo, site-architecture, schema-markup, site-migration, keyword-research, keyword-cannibalization, competitor-analysis, content-strategy, on-page-seo, content-brief, seo-content-writing, content-refresh, internal-linking, local-seo-audit, google-business-profile, service-pages, location-pages, local-citations, review-management, search-console-analysis, seo-reporting, link-building, ai-search-optimization and seo-client-context",
+      "source": "./"
+    }
+  ]
+}

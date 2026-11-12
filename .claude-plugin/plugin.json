@@ -1,0 +1,12 @@
+{
+  "name": "seo-skills",
+  "description": "SEO and Local SEO skills for AI agents: audits, technical SEO, keyword research, content, Google Business Profile, reviews, citations, link building, Search Console analysis, reporting and AI search optimization",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ammar Babbar"
+  },
+  "homepage": "https://github.com/AmmarBabbar/seo-skills",
+  "repository": "https://github.com/AmmarBabbar/seo-skills",
+  "license": "MIT",
+  "skills": "./skills"
+}
